@@ -1,0 +1,36 @@
+{
+  "service": "app-backend",
+  "apiVersion": "v1",
+  "releaseVersion": "1.8.0",
+  "releaseTag": "api-v1.8.0",
+  "deployedAt": "2026-07-08T19:30:00Z",
+  "frameworks": [
+    {
+      "name": "FastAPI",
+      "version": "0.116.1"
+    },
+    {
+      "name": "Pydantic",
+      "version": "2.11.7"
+    },
+    {
+      "name": "Starlette",
+      "version": "0.47.1"
+    }
+  ],
+  "specifications": [
+    {
+      "file": "openapi/openapi.yaml",
+      "format": "OpenAPI",
+      "version": "3.1.0",
+      "audience": "public"
+    },
+    {
+      "file": "openapi/admin-swagger.json",
+      "format": "Swagger",
+      "version": "2.0",
+      "audience": "internal-admin"
+    }
+  ]
+}
+
